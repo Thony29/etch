@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.board {
+  width: 500px;
+  height: 500px;
+  display: grid;
+}
+.black{
+   background-color: black; 
+}
+.red{
+   background-color: red;
+}
+.gray{
+   background-color: gray; 
+}
+.white{
+   background-color: white; 
+   color: black;
+}
+.reset{
+   background-color: black; 
+}
+.random{
+    
+    background: linear-gradient(135deg, #ff3232 0%,#18bf21 50%,#282fff 51%,#ecd909 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#005dff',GradientType=1 );
+}
+button {
+  margin: 3px;
+  padding: auto;
+ outline: inherit;
+  width: 70px;
+  height: 20px;
+  border: 0;
+  background-color: black;
+  color:white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.3),
+    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
+}
+
+.board{
+    border: 5px solid red;
+    box-shadow: 0px 19px 38px 0px rgba(0, 0, 0, 0.3),
+    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
+    margin: 20px 0;
+}
